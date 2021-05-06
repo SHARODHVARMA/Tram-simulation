@@ -7,7 +7,7 @@ class Boggie{
       this.width = width;
       this.height = height;
 
-      this.image = loadImage('images/coach.png');
+      this.image = loadImage('coach.png');
       World.add(myWorld,this.body);
       Matter.Body.setMass(this.body,this.body.mass*5);
     }
