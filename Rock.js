@@ -7,7 +7,7 @@ class Rock{
       this.width = width;
       this.height = height;
 
-      this.image = loadImage('images/rock1.png');
+      this.image = loadImage('rock1.png');
       World.add(myWorld,this.body);
     }
     show()
