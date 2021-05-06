@@ -13,9 +13,9 @@ var crashSound
 var flag = 0;
 
 function preload(){
-  bg= loadImage("images/bg.jpg");
-  trainSound = loadSound("sound/train.mp3");
-  crashSound = loadSound("sound/train_crossing.mp3");
+  bg= loadImage("bg.jpg");
+  trainSound = loadSound("train.mp3");
+  crashSound = loadSound("train_crossing.mp3");
 }
 function setup() {
   createCanvas(1200,400);
